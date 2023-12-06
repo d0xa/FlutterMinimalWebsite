@@ -2,17 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:minimal/components/components.dart';
 
 // TODO Replace with object model.
-const String listItemTitleText = "Creación de aplicaciones";
+const String listItemTitleText = "Creating mobile and web applications";
 const String listItemPreviewText =
-    "web o móviles adaptadas a las necesidades específicas de nuestros clientes.";
-const String listItemTitleText2 = "Protección de información digital";
+    "Crafting innovative mobile applications tailored to our client’s specific needs.";
+const String listItemTitleText2 = "Protecting Digital Information";
 const String listItemPreviewText2 =
-    "por medio de estrategias que usan muchas companias que estan en el Forbes 500 para reducción de riesgos.";
-const String listItemTitleText3 = "Soluciones empresariales";
-const String listItemPreviewText3 = "para base de datos, gestión y logística.";
-const String listItemTitleText4 = "Servicios de consultoría";
+    "Safeguarding digital assets with state-of-the-art protection and risk mitigation strategies.";
+const String listItemTitleText3 = "Business Solutions";
+const String listItemPreviewText3 =
+    "Data base business solutions, management, and logistics.";
+const String listItemTitleText4 = "Consulting";
 const String listItemPreviewText4 =
-    "en ciberseguridad, y en el resguardo de archivos en diversos formatos digitales.";
+    "Cybersecurity consultancy services for archiving data in various digital formats.";
 
 class ListPage extends StatelessWidget {
   static const String name = 'list';
@@ -31,22 +32,22 @@ class ListPage extends StatelessWidget {
                 children: <Widget>[
                   MinimalMenuBar(),
                   ListItem(
-                      imageUrl: "assets/images/coding.jpg",
+                      imageUrl: "assets/images/11.webp",
                       title: listItemTitleText,
                       description: listItemPreviewText),
                   divider,
                   ListItem(
-                      imageUrl: "assets/images/protect.jpg",
+                      imageUrl: "assets/images/22.webp",
                       title: listItemTitleText2,
                       description: listItemPreviewText2),
                   divider,
                   ListItem(
-                      imageUrl: "assets/images/business.jpeg",
+                      imageUrl: "assets/images/33.webp",
                       title: listItemTitleText3,
                       description: listItemPreviewText3),
                   divider,
                   ListItem(
-                      imageUrl: "assets/images/dogs/consult.jpg",
+                      imageUrl: "assets/images/44.webp",
                       title: listItemTitleText4,
                       description: listItemPreviewText4),
                   divider,

@@ -18,26 +18,26 @@ class PostPage extends StatelessWidget {
               // const ImageWrapper(
               //   image: "assets/images/web-logo-cas-i.png",
               // ),
-              Image.asset("assets/images/web-logo-cas-i.png"),
+              // Image.asset("assets/images/web-logo-cas-i.png"),
               Align(
                 alignment: Alignment.centerLeft,
                 child: Container(
                   margin: marginBottom12,
                   child: Text(
-                    "Creando aplicaciones web increíbles y aplicaciones móviles seguras",
+                    "Creating amazing web apps and secure mobile apps",
                     style: headlineTextStyle,
                   ),
                 ),
               ),
               const Align(
                 alignment: Alignment.centerLeft,
-                child: TextBodySecondary(text: "Nuestra mision:"),
+                child: TextBodySecondary(text: "Our Mision:"),
               ),
               const Align(
                 alignment: Alignment.centerLeft,
                 child: TextBody(
                     text:
-                        "En el mundo actual, tanto las aplicaciones web como las móviles se han convertido en elementos esenciales para las empresas y los particulares. Sin embargo, no todas las aplicaciones son creadas iguales. Algunas son simplemente buenas, mientras que otras son realmente increíbles. Si quieres ser increible, ponte en contacto con nosotros"),
+                        "In the current world, both web and mobile applications have become essential for businesses and individuals. However, not all applications are created equal. Some are simply good, while others are truly amazing. If you want to be amazing, contact us."),
               ),
               // const Align(
               //   alignment: Alignment.centerLeft,

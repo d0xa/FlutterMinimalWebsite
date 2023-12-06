@@ -26,7 +26,7 @@ class AboutUsPage extends StatelessWidget {
                     alignment: Alignment.center,
                     child: Container(
                       margin: marginBottom24,
-                      child: Text("Sobre Nosotors", style: headlineTextStyle),
+                      child: Text("About Us", style: headlineTextStyle),
                       // textAlign: TextAlign.center),
                     ),
                   ),
@@ -50,7 +50,7 @@ class AboutUsPage extends StatelessWidget {
                     child: Container(
                       margin: marginBottom40,
                       child: Text(
-                          "CAS-i es una empresa de diseño y desarrollo de software comprometida a brindar soluciones web y de aplicaciones innovadoras para las demandas más desafiantes de las industrias de nuestras ciudades fronterizas. Creando  soluciones hechas a la medida para satisfacer las demandas de los estándares y requisitos de los Estados Unidos Americanos y México.",
+                          "CAS- i is a software  design and development company committed to providing innovative app and web solutions to the most challenging demands  of our border town industries. Creating bespoken solutions to meet the demands of the USA/Mexican standards and requirements.",
                           style: bodyTextStyle),
                     ),
                   ),

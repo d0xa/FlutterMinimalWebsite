@@ -23,8 +23,8 @@ class ImageWrapper extends StatelessWidget {
       margin: const EdgeInsets.symmetric(vertical: 24),
       child: Image.asset(
         image,
-        width: width,
-        height: width / 1.618,
+        width: width / 2.618,
+        height: width / 3.618,
         fit: BoxFit.cover,
       ),
     );
@@ -120,7 +120,7 @@ class ReadMoreButton extends StatelessWidget {
             const EdgeInsets.symmetric(horizontal: 12, vertical: 16)),
       ),
       child: const Text(
-        "PONGASE EN CONTACTO",
+        "Contact Us",
       ),
     );
   }
@@ -373,7 +373,7 @@ class MinimalMenuBar extends StatelessWidget {
                             Navigator.pushNamed(context, AboutUsPage.name),
                         style: menuButtonStyle,
                         child: const Text(
-                          "INICIO",
+                          "HOME",
                         ),
                       ),
                       TextButton(
@@ -381,7 +381,7 @@ class MinimalMenuBar extends StatelessWidget {
                             Navigator.pushNamed(context, ListPage.name),
                         style: menuButtonStyle,
                         child: const Text(
-                          "SERVICIOS",
+                          "SERVICES",
                         ),
                       ),
                       // TextButton(
@@ -397,14 +397,14 @@ class MinimalMenuBar extends StatelessWidget {
                             Navigator.pushNamed(context, PostPage.name),
                         style: menuButtonStyle,
                         child: const Text(
-                          "CONTACTENOS",
+                          "CONTACT US",
                         ),
                       ),
                       TextButton(
                         onPressed: () => goToCas(),
                         style: menuButtonStyle,
                         child: const Text(
-                          "CLIENTES",
+                          "CLIENTS",
                         ),
                       ),
                     ],
