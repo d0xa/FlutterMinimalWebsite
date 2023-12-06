@@ -20,6 +20,7 @@ class ImageWrapper extends StatelessWidget {
     //TODO Listen to inherited widget width updates.
     double width = MediaQuery.of(context).size.width;
     return Container(
+      alignment: Alignment.center,
       margin: const EdgeInsets.symmetric(vertical: 24),
       child: Image.asset(
         image,
@@ -292,9 +293,9 @@ class ListItem extends StatelessWidget {
             image: imageUrl!,
           ),
         Align(
-          alignment: Alignment.centerLeft,
+          alignment: Alignment.topLeft,
           child: Container(
-            margin: marginBottom12,
+            // margin: marginBottom12,
             child: Text(
               title,
               style: headlineTextStyle,

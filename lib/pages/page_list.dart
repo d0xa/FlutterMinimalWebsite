@@ -32,22 +32,22 @@ class ListPage extends StatelessWidget {
                 children: <Widget>[
                   MinimalMenuBar(),
                   ListItem(
-                      imageUrl: "assets/images/11.webp",
+                      imageUrl: "assets/images/1.png",
                       title: listItemTitleText,
                       description: listItemPreviewText),
                   divider,
                   ListItem(
-                      imageUrl: "assets/images/22.webp",
+                      imageUrl: "assets/images/2.png",
                       title: listItemTitleText2,
                       description: listItemPreviewText2),
                   divider,
                   ListItem(
-                      imageUrl: "assets/images/33.webp",
+                      imageUrl: "assets/images/3.png",
                       title: listItemTitleText3,
                       description: listItemPreviewText3),
                   divider,
                   ListItem(
-                      imageUrl: "assets/images/44.webp",
+                      imageUrl: "assets/images/4.png",
                       title: listItemTitleText4,
                       description: listItemPreviewText4),
                   divider,
